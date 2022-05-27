@@ -1,6 +1,6 @@
 import React from "react";
 import { Animate } from "react-simple-animate";
-import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./styles.scss";
 
 const Home = () => {
