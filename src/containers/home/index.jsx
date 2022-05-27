@@ -10,7 +10,7 @@ const Home = () => {
         <h1>
           Hello, I'm Abinash.
           <br />
-          Aspiring Front End Developer.
+          Front End Developer
         </h1>
       </div>
       <Animate
@@ -30,8 +30,9 @@ const Home = () => {
             <a>Download resume</a>
           </div>
           <div className="contact-me__socials-wrapper">
-            <FaLinkedin size={32} />
-            <FaGithub size={32} />
+            <a href="https://www.linkedin.com/in/abinashpatri/"><FaLinkedin size={32}/></a>
+            <a href="https://www.github.com/abinashpatri/"><FaGithub size={32} /></a>
+            
           </div>
         </div>
       </Animate>

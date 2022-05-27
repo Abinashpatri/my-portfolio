@@ -1,8 +1,8 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import { DiApple, DiAndroid } from "react-icons/di";
-import { FaDev, FaDatabase } from "react-icons/fa";
+import {DiHtml5, DiCss3, DiJavascript1, DiReact} from "react-icons/di";
+import {  } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
 
 import { personalData } from "./utils";
@@ -31,7 +31,7 @@ const About = () => {
           >
             <h3 className="developerContent">About me..</h3>
             <p>
-              My name is Abinash Patri, an aspiring front-end developer, skilled in HTML, CSS, SASS, Javascript & react looking for oppertunities in the field of junior front-end development roles.
+              My name is Abinash Patri, an aspiring front-end developer, skilled in HTML, CSS, SASS, Javascript & react, looking for oppertunities in the field of junior front-end development roles.
               <br />
               <br />
               I'm a self-lerner, an avid reader & a good chess player & have keen interest in new technologes & also i follow indian & international affairs. 
@@ -74,20 +74,22 @@ const About = () => {
           >
             <div className="about__content__servicesWrapper__innerContent">
               <div>
-                <DiApple size={60} color="var(--selected-theme-main-color)" />
+                <DiHtml5 size={60} color="var(--selected-theme-main-color)" />
               </div>
               <div>
-                <FaDatabase
+                <DiCss3
                   size={60}
                   color="var(--selected-theme-main-color)"
                 />
               </div>
               <div>
-                <DiAndroid size={60} color="var(--selected-theme-main-color)" />
+                <DiJavascript1 size={60} color="var(--selected-theme-main-color)" />
               </div>
               <div>
-                <FaDev size={60} color="var(--selected-theme-main-color)" />
+                <DiReact size={60} color="var(--selected-theme-main-color)" />
               </div>
+              
+              
             </div>
           </Animate>
         </div>

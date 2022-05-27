@@ -7,7 +7,6 @@ import About from "./containers/about";
 import Skills from "./containers/skills";
 import Resume from "./containers/resume";
 import Portfolio from "./containers/portfolio";
-import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
 import particlesConfig from "./helpers/particlesConfig";
 import Theme from "./components/theme";
@@ -37,6 +36,7 @@ function App() {
       {/* main page content */}
       <div className="App__main-content-wrapper">
         <Theme />
+        
         <Routes>
           {/* create all routes */}
           <Route path="/" index element={<Home />} />
@@ -44,7 +44,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+          
         </Routes>
       </div>
     </div>

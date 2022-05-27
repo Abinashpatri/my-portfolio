@@ -1,37 +1,37 @@
 export const data = {
     experience: [
       {
-        title: "Project Engineer",
-        subTitle: "Adani Port, Mundra, Gujarat",
+        title: "Project Engineer : ",
+        subTitle: "Powermech Projects Ltd. (Adani Port, Mundra, Gujarat)",
         description:
-          " HDD Incharge, PIMS",
+          " HDD Incharge, PIMS-Engineer",
       },
       
     ],
     education: [
       {
-        title: "Secondary",
+        title: "Secondary : ",
         subTitle: "SSVM  ",
         description:
           "10th Grade (2012)",
       },
       {
-        title: "Higher Secondary",
+        title: "Higher Secondary : ",
         subTitle: "St. Xavier's",
         description:
           "12th Grade in Science  (2014)",
       },
       {
-        title: "MBA",
-        subTitle: "Institute of business & computer studies",
+        title: "MBA : ",
+        subTitle: "Institute of business & computer studies (SOA University)",
         description:
-          "finance (2019)",
+          "finance-DDM (2019)",
       },
       {
-        title: "B.Tech",
-        subTitle: "Institute of technical education & research",
+        title: "B.Tech : ",
+        subTitle: "Institute of technical education & research (SOA University)",
         description:
-          "Bachelor of technology in Mechanical engineering (2019)",
+          "Bachelor of technology in Mechanical engineering-DDM (2019)",
       },
     ],
   };

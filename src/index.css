@@ -9,26 +9,26 @@
   );
 
   /* primary color yellow */
-  --yellow-theme-background-color: #1d1d1d;
-  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-background-color: #181818;
+  --yellow-theme-main-color: #ffff69;
   --yellow-theme-sub-text-color: #ffffff;
   --yellow-theme-nav-background-color: #181818;
 
   /* secondary color red */
-  --red-theme-background-color: #1d1d1d;
-  --red-theme-main-color: #e82a2a;
+  --red-theme-background-color: #181818;
+  --red-theme-main-color: #ff4b37;
   --red-theme-sub-text-color: #ffffff;
   --red-theme-nav-background-color: #181818;
 
   /* secondary color green */
-  --green-theme-background-color: #1d1d1d;
-  --green-theme-main-color: #6ac045;
+  --green-theme-background-color: #181818;
+  --green-theme-main-color: #0dffb2;
   --green-theme-sub-text-color: #ffffff;
   --green-theme-nav-background-color: #181818;
 
  /* secondary color blue */
-  --blue-theme-background-color: #1d1d1d;
-  --blue-theme-main-color: #5078ff;
+  --blue-theme-background-color: #181818;
+  --blue-theme-main-color: #14e1e9;
   --blue-theme-sub-text-color: #ffffff;
   --blue-theme-nav-background-color: #181818;
 

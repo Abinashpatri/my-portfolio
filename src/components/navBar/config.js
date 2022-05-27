@@ -19,8 +19,4 @@ export const navMenus = [
     label: "PORTFOLIO",
     to: "/portfolio",
   },
-  {
-    label: "CONTACT",
-    to: "/contact",
-  },
 ];
