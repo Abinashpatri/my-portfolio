@@ -8,9 +8,9 @@ const Home = () => {
     <section className="home" id="home">
       <div className="home__text-wrapper">
         <h1>
-          Hello, I'm Abinash
+          Hello, I'm Abinash.
           <br />
-          Front End Developer.
+          Aspiring Front End Developer.
         </h1>
       </div>
       <Animate
