@@ -2,6 +2,7 @@ import React from "react";
 import { Animate } from "react-simple-animate";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./styles.scss";
+import cv from '../../images/resume.pdf'
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
         <div className="contact-me">
           <div className="contact-me__buttons-wrapper">
             <button>Hire me</button>
-            <a>Download resume</a>
+            <a href={cv}>Download resume</a>
           </div>
           <div className="contact-me__socials-wrapper">
             <a href="https://www.linkedin.com/in/abinashpatri/"><FaLinkedin size={32}/></a>
